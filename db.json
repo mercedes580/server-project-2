@@ -1,33 +1,40 @@
 {
-  "projects": [
+  "products": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
-    },
-    {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "title": "Cupcake de fresa",
+      "description": "Delicioso pastelito de fresa con glaseado",
+      "price": 2.50,
+      "ingredients": [
+        "harina",
+        "azúcar",
+        "trigo"
+      ],
+      "allergens": [
+        "frutos secos"
+      ],
+      "gallery": [
+        "https://aula10formacion.com/wp-content/uploads/imag/71/cups-300x171.jpg.webp",
+        "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/cupcakes_93722_16x9.jpg"
+      ],
+      "stock": 6,
+      "gluten": true
     }
   ],
-  "tasks": [
+  "comments": [
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "productId": 1,
+      "rating": 6,
+      "comment": "Me ha encantado riquisimo",
+      "date": "December 17, 1995 03:24:00"
     },
     {
       "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
-    {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "productId": 1,
+      "rating": 8,
+      "comment": "Me ha gustado pero puede estar mejor",
+      "date": "December 18, 1995 03:24:00"
     }
   ]
 }
