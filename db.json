@@ -19,6 +19,51 @@
       ],
       "stock": 6,
       "gluten": true
+    },
+    {
+      "id": 2,
+      "title": "Brownie suchard",
+      "description": "Para los amantes del chocolate nuestro increible brownie suchard diseñado para devolver la ilusion a las comidas",
+      "price": 3.80,
+      "ingredients": [
+        "harina",
+        "azúcar",
+        "trigo",
+        "chocolate",
+        "levadura"
+      ],
+      "allergens": [
+        "frutos secos"
+      ],
+      "gallery": [
+        "https://i.pinimg.com/736x/6f/14/93/6f1493253adcc32fa38c4e23af00484a.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYwqt8dRzlEqH0AU4Q9teco0fio5FvOPgGQ&s"
+      ],
+      "stock": 8,
+      "gluten": true
+    },
+    {
+      "id": 3,
+      "title": "Tarta de zanahoria",
+      "description": "Riquisima especialidad de la casa perfecta para cumpleñaños tiene un glaseado con fruta y escarcha si estas dudando nuestra tarta siempre es una apuesta segura ",
+      "price": 12.50,
+      "ingredients": [
+        "harina",
+        "azúcar",
+        "trigo",
+        "levadura",
+        "zanahoria",
+        "nueces"
+      ],
+      "allergens": [
+        "frutos secos"
+      ],
+      "gallery": [
+        "https://img.juanideanasevilla.com/archivos/recetas/recetas_tarta-carrot-cake-web_1639304298.jpg",
+        "https://www.hola.com/horizon/landscape/a691cc4ac8dc-adobestock618018604.jpg?im=Resize=(640),type=downsize"
+      ],
+      "stock": 10,
+      "gluten": false
     }
   ],
   "comments": [
@@ -35,6 +80,27 @@
       "rating": 8,
       "comment": "Me ha gustado pero puede estar mejor",
       "date": "December 18, 1995 03:24:00"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "rating": 10,
+      "comment": "Experiencia inigualable para los amantes del chocolate, sin duda no hay nada mejor que este brownie",
+      "date": "December 19, 1995 03:24:00"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "rating": 7,
+      "comment": "Un poco empalagosa para los que no sean tan amantes chocolateros pero muy rico igualmente",
+      "date": "December 27, 2005 03:24:00"
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "rating": 9,
+      "comment": "La tarta de zanahoria es un gusto como pocos en la vida las proporciones sublimes repetiria seguro ",
+      "date": "December 25, 1990 03:24:00"
     }
   ]
 }
