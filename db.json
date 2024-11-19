@@ -1,106 +1,199 @@
 {
   "products": [
     {
-      "id": 1,
-      "title": "Cupcake de fresa",
-      "description": "Delicioso pastelito de fresa con glaseado",
-      "price": 2.50,
+      "title": "Tarta de zanahoria",
+      "description": "Deliciosa tarta de tres capas de bizcocho de zanahoria, rellena de ganache de nata y cubierta con una suave crema de azucar glass",
+      "price": "24.99",
       "ingredients": [
-        "harina",
+        "harina de trigo",
         "azúcar",
-        "trigo"
+        "huevos",
+        "mantequilla",
+        "nata"
       ],
       "allergens": [
-        "frutos secos"
+        "huevos",
+        "lacteos",
+        "gluten",
+        "puede contener trazas de frutos secos"
       ],
       "gallery": [
-        "https://aula10formacion.com/wp-content/uploads/imag/71/cups-300x171.jpg.webp",
-        "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/cupcakes_93722_16x9.jpg"
+        [
+          "https://www.pucheromix.com/wp-content/uploads/2024/03/carrot-cake.jpg"
+        ]
       ],
-      "stock": 6,
-      "gluten": true
+      "stock": 5,
+      "gluten": true,
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "Brownie suchard",
-      "description": "Para los amantes del chocolate nuestro increible brownie suchard diseñado para devolver la ilusion a las comidas",
-      "price": 3.80,
+      "title": "Croissant de Almendra",
+      "description": "Croissant artesanal de mantequilla, relleno de crema de almendras y cubierto con almendras laminadas",
+      "price": "3.50",
       "ingredients": [
-        "harina",
+        "harina de trigo",
+        "mantequilla",
         "azúcar",
-        "trigo",
-        "chocolate",
-        "levadura"
+        "levadura",
+        "almendras",
+        "huevos"
       ],
       "allergens": [
-        "frutos secos"
+        "huevos",
+        "lacteos",
+        "gluten",
+        "frutos secos (almendras)"
       ],
       "gallery": [
-        "https://i.pinimg.com/736x/6f/14/93/6f1493253adcc32fa38c4e23af00484a.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYwqt8dRzlEqH0AU4Q9teco0fio5FvOPgGQ&s"
+        "https://www.nanette.com.ar/wp-content/uploads/2020/06/croissantdealmendras-300x300.jpg"
+      ],
+      "stock": 15,
+      "gluten": true,
+      "id": 2
+    },
+    {
+      "title": "Tarta de Queso Japonesa",
+      "description": "Suave y esponjosa tarta de queso al estilo japonés, con una textura similar al soufflé",
+      "price": "18.99",
+      "ingredients": [
+        "queso crema",
+        "huevos",
+        "nata",
+        "harina de trigo",
+        "azúcar",
+        "mantequilla"
+      ],
+      "allergens": [
+        "huevos",
+        "lacteos",
+        "gluten"
+      ],
+      "gallery": [
+        "https://mlwz8lwoesaq.i.optimole.com/w:1024/h:576/q:mauto/f:best/https://easy-sushi.com/wp-content/uploads/2024/09/easy-sushi-recette-cheesecake-japonais.webp"
       ],
       "stock": 8,
-      "gluten": true
+      "gluten": true,
+      "id": 3
     },
     {
-      "id": 3,
-      "title": "Tarta de zanahoria",
-      "description": "Riquisima especialidad de la casa perfecta para cumpleñaños tiene un glaseado con fruta y escarcha si estas dudando nuestra tarta siempre es una apuesta segura ",
-      "price": 12.50,
+      "title": "Macarons Surtidos",
+      "description": "Caja de 12 macarons artesanales en variados sabores: vainilla, chocolate, frambuesa, pistacho, limón y caramelo",
+      "price": "15.50",
       "ingredients": [
-        "harina",
+        "harina de almendra",
+        "azúcar glas",
+        "claras de huevo",
+        "colorantes alimentarios naturales"
+      ],
+      "allergens": [
+        "huevos",
+        "frutos secos (almendras)",
+        "puede contener trazas de lacteos"
+      ],
+      "gallery": [
+        "https://i.etsystatic.com/17765268/r/il/0e20c7/5906733669/il_570xN.5906733669_b5aa.jpg"
+      ],
+      "stock": 10,
+      "gluten": false,
+      "id": 4
+    },
+    {
+      "title": "Éclair de Café",
+      "description": "Clásico éclair relleno de crema pastelera de café y cubierto con glaseado de café",
+      "price": "4.25",
+      "ingredients": [
+        "harina de trigo",
+        "mantequilla",
+        "huevos",
+        "leche",
+        "café",
+        "azúcar"
+      ],
+      "allergens": [
+        "huevos",
+        "lacteos",
+        "gluten"
+      ],
+      "gallery": [
+        "https://canalcocina.es/medias/_cache/zoom-ae9f9360e0ab5464a36393fadc972844-920-518.jpg"
+      ],
+      "stock": 20,
+      "gluten": true,
+      "id": 5
+    },
+    {
+      "title": "Tarta Red Velvet",
+      "description": "Tarta de terciopelo rojo de tres capas con un suave frosting de queso crema",
+      "price": "22.99",
+      "ingredients": [
+        "harina de trigo",
+        "cacao en polvo",
+        "buttermilk",
+        "vinagre",
+        "colorante rojo",
+        "queso crema",
+        "mantequilla"
+      ],
+      "allergens": [
+        "huevos",
+        "lacteos",
+        "gluten"
+      ],
+      "gallery": [
+        "https://img.rtve.es/imagenes/receta-tarta-red-velvet-ana-masterchef/1681126114974.JPG"
+      ],
+      "stock": 6,
+      "gluten": true,
+      "id": 6
+    },
+    {
+      "title": "cupcake de fresa",
+      "description": "Delicado postre de bicocho con capas de crema pastelera y fresas frescas",
+      "price": "16.50",
+      "ingredients": [
+        "nata",
         "azúcar",
-        "trigo",
-        "levadura",
-        "zanahoria",
+        "fresas",
+        "huevos",
+        "maicena"
+      ],
+      "allergens": [
+        "huevos",
+        "lacteos",
+        "gluten"
+      ],
+      "gallery": [
+        "https://tartademanzanacasera.com/wp-content/uploads/2016/08/dsc09806.jpg?w=640"
+      ],
+      "stock": 12,
+      "gluten": true,
+      "id": 7
+    },
+    {
+      "title": "Brownie de suchard",
+      "description": "Brownie denso y húmedo con trozos de nueces, elaborado con chocolate suchard de alta calidad",
+      "price": "13.99",
+      "ingredients": [
+        "harina de trigo",
+        "chocolate negro",
+        "mantequilla",
+        "huevos",
+        "azúcar",
         "nueces"
       ],
       "allergens": [
-        "frutos secos"
+        "huevos",
+        "lacteos",
+        "gluten",
+        "frutos secos (nueces)"
       ],
       "gallery": [
-        "https://img.juanideanasevilla.com/archivos/recetas/recetas_tarta-carrot-cake-web_1639304298.jpg",
-        "https://www.hola.com/horizon/landscape/a691cc4ac8dc-adobestock618018604.jpg?im=Resize=(640),type=downsize"
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz9y4VK_FKPENSrOqGZjUHeqitEXKhIo1McbxddVRZhIjF0yqkDp34rAfYHF4soA8zdikGDPDAFxS77Xvr7WYAyWOFPukRrF0KYC02vH8eyKznoKjcQyb-VWdEWhL8bWFrdrHBRsoiGFG6PFh4osw6KkdeP_PUYx2o4M9BPjM9TKpyCpbg5bATJy2zsg/w300-h400/BROWNIE%20DE%20TURR%C3%93N%20SUCHARD.%20Receta%20F%C3%81CIL%20y%20DELICIOSA%20en%20Freidora%20de%20Aire%20(13).JPG"
       ],
-      "stock": 10,
-      "gluten": false
+      "stock": 18,
+      "gluten": true,
+      "id": 8
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "productId": 1,
-      "rating": 6,
-      "comment": "Me ha encantado riquisimo",
-      "date": "December 17, 1995 03:24:00"
-    },
-    {
-      "id": 2,
-      "productId": 1,
-      "rating": 8,
-      "comment": "Me ha gustado pero puede estar mejor",
-      "date": "December 18, 1995 03:24:00"
-    },
-    {
-      "id": 2,
-      "productId": 2,
-      "rating": 10,
-      "comment": "Experiencia inigualable para los amantes del chocolate, sin duda no hay nada mejor que este brownie",
-      "date": "December 19, 1995 03:24:00"
-    },
-    {
-      "id": 2,
-      "productId": 2,
-      "rating": 7,
-      "comment": "Un poco empalagosa para los que no sean tan amantes chocolateros pero muy rico igualmente",
-      "date": "December 27, 2005 03:24:00"
-    },
-    {
-      "id": 3,
-      "productId": 3,
-      "rating": 9,
-      "comment": "La tarta de zanahoria es un gusto como pocos en la vida las proporciones sublimes repetiria seguro ",
-      "date": "December 25, 1990 03:24:00"
-    }
-  ]
+  "comments": []
 }
