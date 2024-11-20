@@ -246,5 +246,25 @@
       "date": "2024-11-19T20:11:43.899Z",
       "id": 4
     }
+  ],
+  "shop": [
+    {
+      "id": "1",
+      "details": [
+        {
+          "productId": "4",
+          "quantity": "4"
+        },
+        {
+          "productId": "1",
+          "quantity": "1"
+        },
+        {
+          "productId": "3",
+          "quantity": "2"
+        }
+      ],
+      "status": "0"
+    }
   ]
 }
