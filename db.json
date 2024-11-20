@@ -193,7 +193,58 @@
       "stock": 18,
       "gluten": true,
       "id": 8
+    },
+    {
+      "title": "Creme brulee",
+      "description": "Postre clásico francés con crema suave y cobertura caramelizada crujiente",
+      "price": 18.99,
+      "ingredients": [
+        "nata",
+        "yemas de huevo",
+        "azúcar",
+        "vainilla",
+        "sal"
+      ],
+      "allergens": [
+        "huevos",
+        "lácteos"
+      ],
+      "gallery": [
+        "https://es.rc-cdn.community.thermomix.com/recipeimage/7qukknq3-b59c6-729351-cfcd2-w58841bu/b0b536f7-5534-4766-88f9-504e5b6f2cfd/large/creme-brulee-con-chocolate-blanco.jpg"
+      ],
+      "stock": 8,
+      "gluten": false,
+      "id": 9
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "productId": "3",
+      "rating": "9",
+      "comment": "tr65r65rttu",
+      "date": "2024-11-19T16:50:55.178Z",
+      "id": 1
+    },
+    {
+      "productId": "2",
+      "rating": "9",
+      "comment": "hghfytfyj",
+      "date": "2024-11-20T14:19:16.325Z",
+      "id": 2
+    },
+    {
+      "productId": "2",
+      "rating": "6",
+      "comment": "",
+      "date": "2024-11-19T19:45:54.495Z",
+      "id": 3
+    },
+    {
+      "productId": "2",
+      "rating": "9",
+      "comment": "tresyetrdytr",
+      "date": "2024-11-19T20:11:43.899Z",
+      "id": 4
+    }
+  ]
 }
