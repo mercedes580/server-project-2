@@ -222,27 +222,6 @@
       "comment": "tr65r65rttu",
       "date": "2024-11-19T16:50:55.178Z",
       "id": 1
-    },
-    {
-      "productId": "2",
-      "rating": "9",
-      "comment": "hghfytfyj",
-      "date": "2024-11-20T14:19:16.325Z",
-      "id": 2
-    },
-    {
-      "productId": "2",
-      "rating": "6",
-      "comment": "",
-      "date": "2024-11-19T19:45:54.495Z",
-      "id": 3
-    },
-    {
-      "productId": "2",
-      "rating": "9",
-      "comment": "tresyetrdytr",
-      "date": "2024-11-19T20:11:43.899Z",
-      "id": 4
     }
   ],
   "shop": [
@@ -260,9 +239,77 @@
         {
           "productId": "3",
           "quantity": "2"
+        },
+        {
+          "productId": 3,
+          "quantity": "1"
         }
       ],
-      "status": "0"
+      "status": "1",
+      "total": "143.96"
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "quantity": "1"
+        }
+      ],
+      "status": "1",
+      "total": "3.50",
+      "id": "kJCWYeN"
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "quantity": "1"
+        }
+      ],
+      "status": "1",
+      "total": "3.50",
+      "id": "m9DxOfc"
+    },
+    {
+      "details": [
+        {
+          "productId": 5,
+          "quantity": "1"
+        },
+        {
+          "productId": 2,
+          "quantity": "1"
+        }
+      ],
+      "status": "1",
+      "total": "7.75",
+      "id": "FTT-dTK"
+    },
+    {
+      "details": [
+        {
+          "productId": 5,
+          "quantity": "6"
+        }
+      ],
+      "status": "1",
+      "total": "25.50",
+      "id": "A1jb4NA"
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "quantity": "2"
+        },
+        {
+          "productId": 5,
+          "quantity": "12"
+        }
+      ],
+      "status": "1",
+      "total": "58.00",
+      "id": "YNjXOMO"
     }
   ]
 }
